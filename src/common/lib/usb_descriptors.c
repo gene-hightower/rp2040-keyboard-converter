@@ -164,7 +164,7 @@ uint8_t const* tud_descriptor_configuration_cb(uint8_t index) {
 // array of pointer to string descriptors
 char const* string_desc_arr[] = {
     (const char[]){0x09, 0x04},  // 0: is supported language is English (0x0409)
-    "paulbramhall.uk",           // 1: Manufacturer
+    "genehightower.com",         // 1: Manufacturer
     "RP2040 Device Converter",   // 2: Product
     "",                          // 3: Serial, We will set this later to the unique Flash ID
 };
